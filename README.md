@@ -55,6 +55,8 @@ I will be trying to make the base OS work with this app.
 
 But, no promises, i might have to do that to make it work so yeah.
 
+BTW, for GitHub People, the .gitignore is exclusively here and can't be ported to the main download
+
 Thats it!
 
 ## Credits:
