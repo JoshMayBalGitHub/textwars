@@ -1,4 +1,3 @@
-
 # Welcome to the Github Readme!
 
 This thing will be included on the downloads but you should read the .txt instead there
@@ -8,9 +7,8 @@ Because .txt just works when you are outside Github
 I haven't tested it though...
 
 
-
 ## Steps to play Game:
-1. Go to ConsoleApp (Shortcut)
+1. Go to ConsoleApp2.exe
 2. Click it or Double-Click it
 3. If nothing happens, wait a bit and if there's nothing,
 Then you probably have another Operating System, 
@@ -31,7 +29,7 @@ No - Confirmed not Working (Might create a version that works with the OS in her
 ### Actual OS:
 Windows: Yes
 
-Linux: No
+Linux: Maybe
 
 MacOS or OSX: Maybe
 
@@ -68,4 +66,3 @@ Programming Languages Used:
 C# (for now..)
 
 No Licenses (i'm not a company or a competent coder even)
-
