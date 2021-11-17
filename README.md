@@ -31,7 +31,7 @@ No - Confirmed not Working (Might create a version that works with the OS in her
 ### Actual OS:
 Windows: Yes
 
-Linux: Maybe
+Linux: No
 
 MacOS or OSX: Maybe
 
