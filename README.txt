@@ -28,6 +28,7 @@ So if you are waiting for your version for your OS, it might be actually getting
 Also, you might have to install another app to get this working but don't worry!
 I will be trying to make the base OS work with this app. 
 But, no promises, i might have to do that to make it work so yeah.
+BTW, for GitHub People, the .gitignore is exclusively there and can't be ported to the main download
 Thats it!
 
 Credits:
