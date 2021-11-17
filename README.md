@@ -8,7 +8,7 @@ I haven't tested it though...
 
 
 ## Steps to play Game:
-1. Go to ConsoleApp2.exe
+1. Go to ConsoleApp.lnk (Shortcut)
 2. Click it or Double-Click it
 3. If nothing happens, wait a bit and if there's nothing,
 Then you probably have another Operating System, 
