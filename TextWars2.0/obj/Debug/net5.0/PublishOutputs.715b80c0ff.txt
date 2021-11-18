@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Downloads\Test Scripts\C#\ConsoleApp2\bin\Debug\net5.0\publish\ConsoleApp2.exe
+C:\Users\Lenovo\Downloads\Test Scripts\C#\ConsoleApp2\bin\Debug\net5.0\publish\ConsoleApp2.dll
+C:\Users\Lenovo\Downloads\Test Scripts\C#\ConsoleApp2\bin\Debug\net5.0\publish\ConsoleApp2.deps.json
+C:\Users\Lenovo\Downloads\Test Scripts\C#\ConsoleApp2\bin\Debug\net5.0\publish\ConsoleApp2.runtimeconfig.json
+C:\Users\Lenovo\Downloads\Test Scripts\C#\ConsoleApp2\bin\Debug\net5.0\publish\ConsoleApp2.pdb
