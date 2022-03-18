@@ -1,6 +1,6 @@
 # Note: Text Wars doesnt work on .net 6.0
 
-i removed the releases but if you want to you can download from source
+Do it on net 5.0....
 
 # Welcome to the Github Readme!
 
