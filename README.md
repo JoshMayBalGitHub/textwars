@@ -1,3 +1,4 @@
+# Note: Text Wars doesnt work on .net 6.0
 # Welcome to the Github Readme!
 
 This thing will be included on the downloads but you should read the .txt instead there
