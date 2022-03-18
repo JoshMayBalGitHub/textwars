@@ -1,4 +1,7 @@
 # Note: Text Wars doesnt work on .net 6.0
+
+i removed the releases but if you want to you can download from source
+
 # Welcome to the Github Readme!
 
 This thing will be included on the downloads but you should read the .txt instead there
