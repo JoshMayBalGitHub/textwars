@@ -1,6 +1,6 @@
-# Note: Text Wars doesnt work on .net 6.0
+# Note: Net 6.0 works but textwars 2.0 is the version, NOT 1.0, i will keep the old version for archive reasons.
 
-Do it on net 5.0....
+You might have noticed that i changed this from not compatible to this, which is because i made a version for net 6.0, i had to rewrite it because i lost the source code files and i uploaded the application not the source code. Now as for the old source code its bascially just the net 5.0 version but in here instead of packages lol.
 
 # Welcome to the Github Readme!
 
