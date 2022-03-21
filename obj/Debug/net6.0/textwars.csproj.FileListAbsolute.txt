@@ -1,0 +1,15 @@
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Debug/net6.0/textwars
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Debug/net6.0/textwars.deps.json
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Debug/net6.0/textwars.runtimeconfig.json
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Debug/net6.0/textwars.dll
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Debug/net6.0/textwars.pdb
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.csproj.AssemblyReference.cache
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.GeneratedMSBuildEditorConfig.editorconfig
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.AssemblyInfoInputs.cache
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.AssemblyInfo.cs
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.csproj.CoreCompileInputs.cache
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.dll
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/refint/textwars.dll
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.pdb
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/textwars.genruntimeconfig.cache
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/Debug/net6.0/ref/textwars.dll
