@@ -25,6 +25,8 @@ Check Below for your Specific Operating System
 
 ### Terms:
 
+Note: You need dotnet to run the app anyway
+
 OS - Operating Systems
 
 Yes - Confirmed Working
@@ -40,9 +42,9 @@ Linux: Maybe
 
 MacOS or OSX: Maybe
 
-Unix Variants: Maybe
+Unix Variants: No?
 
-BSD and its Variants: Maybe
+BSD and its Variants: No?
 
 ## Notes:
 
