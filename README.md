@@ -9,10 +9,6 @@ This thing will be included on the downloads but you should read the .txt instea
 
 Because .txt just works when you are outside Github
 
-I haven't tested it though...
-
-The Script is also in the download but it doesnt affect anything really.
-
 
 ## Steps to play Game:
 1. Go to ConsoleApp2.exe
