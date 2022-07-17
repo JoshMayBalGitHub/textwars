@@ -72,4 +72,4 @@ Programming Languages Used:
 
 C# (for now..)
 
-No Licenses (i'm not a company or a competent coder even)
+LGPLv3 (I need a license to make it actually open source so this is what i chose... still not a competent coder or a company.)
