@@ -10,7 +10,7 @@ This thing will be included on the downloads but you should read the .txt instea
 Because .txt just works when you are outside Github
 
 
-## Steps to play Game:
+## Steps to play "Game":
 1. Go to ConsoleApp2.exe
 2. Click it or Double-Click it
 3. If nothing happens, wait a bit and if there's nothing,
