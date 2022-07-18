@@ -1,0 +1,5 @@
+help - displays this help and exit
+textwars - the main program, its like a bunch of questions
+change-name - to change name of your "terminal"
+exit  - exit/quit the "terminal"
+clear - clear the terminal

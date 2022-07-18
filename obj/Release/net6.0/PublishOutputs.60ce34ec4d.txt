@@ -1,0 +1,5 @@
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Release/net6.0/publish/textwars
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Release/net6.0/publish/textwars.dll
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Release/net6.0/publish/textwars.deps.json
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Release/net6.0/publish/textwars.runtimeconfig.json
+/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/bin/Release/net6.0/publish/textwars.pdb
