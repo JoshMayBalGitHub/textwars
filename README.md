@@ -11,9 +11,9 @@ Linux: Yes
 
 MacOS or OSX: Maybe?
 
-Unix Variants: No
+BSD and its Variants: Maybe?
 
-BSD and its Variants: No
+Other Unix / Unix-like Variants: No
 
 ## Steps to play "Game":
 1. Go to textwars.exe / textwars
