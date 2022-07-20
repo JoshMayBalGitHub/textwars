@@ -3,11 +3,6 @@ You might have noticed that i changed this from not compatible to this, which is
 
 If you have net 5.0, **Update Now!**, i am porting all of my stuff to net 6.0 in the future and you might miss out on new updates.
 
-## Steps to play "Game":
-1. Go to textwars.exe / textwars
-2. Click it or Double-Click it
-3. Have fun!
-
 ## Operating System Compatibility
 
 Windows: Yes
@@ -19,6 +14,11 @@ MacOS or OSX: Maybe?
 Unix Variants: No
 
 BSD and its Variants: No
+
+## Steps to play "Game":
+1. Go to textwars.exe / textwars
+2. Click it or Double-Click it
+3. Have fun!
 
 ## Credits:
 
