@@ -101,7 +101,9 @@ namespace textwars
       else if (narwini == "no")
       {
         Console.WriteLine("NOOOOO! :( OK.....");
+        Thread.Sleep(5000);
         Console.WriteLine("YOU SHALL BE BANISHED!");
+        Thread.Sleep(5000);
         Environment.Exit(0);
       }
       else
