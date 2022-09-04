@@ -3,3 +3,4 @@ textwars - the main program, its like a bunch of questions
 change-name - to change name of your "terminal"
 exit  - exit/quit the "terminal"
 clear - clear the terminal
+warstext - a program that fills up the blank space with user answers
