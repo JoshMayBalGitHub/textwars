@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace textwars
 {
@@ -14,35 +14,6 @@ namespace textwars
       var cmd = Console.ReadLine();
       if (cmd == "textwars") 
       {
-        goto Error;
-      } 
-      else if (cmd == "help") 
-      {
-        var text = File.ReadAllText("./config/help.txt");
-        Console.WriteLine(text);
-        goto cmderror;
-      }
-      else if (cmd == "exit") 
-      {
-        Console.WriteLine("Ok.");
-        Environment.Exit(0);
-      }
-      else if (cmd == "change-name") 
-      {
-        Console.Write("Write your name here: ");
-        var cmd_name = Console.ReadLine();
-        File.WriteAllTextAsync("./config/cmd_name.txt", cmd_name);
-        goto cmderror;
-      } 
-      else if (cmd == "clear") {
-        Console.Clear();
-        goto cmderror;
-      }
-      else {
-        Console.WriteLine(cmd + ": Command not found. Please try again");
-        goto cmderror;
-      }
-
       Error:
       Thread.Sleep(2000);
       Console.WriteLine("Do you like school?");
@@ -110,6 +81,39 @@ namespace textwars
       {
         Console.WriteLine("ERROR, try again.");
         goto Error2;
+      }
+      } 
+      else if (cmd == "help") 
+      {
+        var text = File.ReadAllText("./config/help.txt");
+        Console.WriteLine(text);
+        goto cmderror;
+      }
+      else if (cmd == "exit") 
+      {
+        Console.WriteLine("Ok.");
+        Environment.Exit(0);
+      }
+      else if (cmd == "change-name") 
+      {
+        Console.Write("Write your name here: ");
+        var cmd_name = Console.ReadLine();
+        File.WriteAllTextAsync("./config/cmd_name.txt", cmd_name);
+        goto cmderror;
+      } 
+      else if (cmd == "clear") {
+        Console.Clear();
+        goto cmderror;
+      }
+      else if (cmd == "warstext") {
+        Thread.Sleep(2000);
+        Console.WriteLine("Write out the information to make funny requests.");
+        Console.WriteLine("Choose between the numbers, get more with pressing <- and ->");
+        
+      }
+      else {
+        Console.WriteLine(cmd + ": Command not found. Please try again");
+        goto cmderror;
       }
     }
   }
