@@ -8,7 +8,7 @@ namespace textwars
     {
       Console.WriteLine("Type 'help' for the available commands!");
       cmderror:
-      var name_cmd = string.Join(" ", File.ReadAllLines("./config/cmd_name.txt"));
+      var name_cmd = string.Join(" ", File.ReadAllText("./config/cmd_name.txt"));
       Console.Write(name_cmd);
       Console.Write(" > ");
       var cmd = Console.ReadLine();
@@ -98,7 +98,7 @@ namespace textwars
       {
         Console.Write("Write your name here: ");
         var cmd_name = Console.ReadLine();
-        File.WriteAllTextAsync("./config/cmd_name.txt", cmd_name);
+        File.WriteAllText("./config/cmd_name.txt", cmd_name);
         goto cmderror;
       } 
       else if (cmd == "clear") {
