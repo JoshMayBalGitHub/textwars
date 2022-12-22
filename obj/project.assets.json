@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net7.0": []
   },
   "packageFolders": {
     "/home/joshlenovo/.nuget/packages/": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/textwars.csproj",
+      "projectUniqueName": "/run/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/textwars.csproj",
       "projectName": "textwars",
-      "projectPath": "/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/textwars.csproj",
+      "projectPath": "/run/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/textwars.csproj",
       "packagesPath": "/home/joshlenovo/.nuget/packages/",
-      "outputPath": "/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/",
+      "outputPath": "/run/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/joshlenovo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,15 +41,16 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
