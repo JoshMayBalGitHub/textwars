@@ -7,8 +7,8 @@ namespace textwars
     static void Main(string[] args)
     {
       Console.Clear();
-      cmderror:
       Console.WriteLine("Type 'help' to disable / enable the help prompt!");
+      cmderror:
       var helpmod = string.Join(" ", File.ReadAllText("./config/helpmod.txt"));
       if (helpmod == "enable") {
         var text = File.ReadAllText("./config/help.txt");
