@@ -7,8 +7,16 @@ namespace textwars
     static void Main(string[] args)
     {
       Console.Clear();
-      Console.WriteLine("Type 'help' for the available commands!");
       cmderror:
+      Console.WriteLine("Type 'help' to disable / enable the help prompt!");
+      var helpmod = string.Join(" ", File.ReadAllText("./config/helpmod.txt"));
+      if (helpmod == "enable") {
+        var text = File.ReadAllText("./config/help.txt");
+        Console.WriteLine(text);
+      } else if (helpmod == "disable") {
+        goto conthelp;
+      }
+      conthelp:
       var name_cmd = string.Join(" ", File.ReadAllText("./config/cmd_name.txt"));
       Console.Write(name_cmd);
       Console.Write(" > ");
@@ -86,9 +94,20 @@ namespace textwars
       } 
       else if (cmd == "help") 
       {
-        var text = File.ReadAllText("./config/help.txt");
-        Console.WriteLine(text);
-        goto cmderror;
+        helpto:
+        Console.WriteLine("Type 'enable' and 'disable' exactly to enable / disable the help prompt!");
+        var helpmods = Console.ReadLine();
+        // Make sure to prevent accidental errors using:
+        if (helpmods == "enable") {
+          File.WriteAllText("./config/helpmod.txt", "enable");
+          goto cmderror;
+        } else if (helpmods == "disable") {
+          File.WriteAllText("./config/helpmod.txt", "disable");
+          goto cmderror;
+        } else {
+          Console.WriteLine(helpmods + ": not valid, try again!");
+          goto helpto;
+        }
       }
       else if (cmd == "exit") 
       {
@@ -104,6 +123,13 @@ namespace textwars
       } 
       else if (cmd == "clear") {
         Console.Clear();
+        goto cmderror;
+      }
+      else if (cmd == "reset") {
+        Console.WriteLine("Resetting...");
+        File.WriteAllText("./config/cmd_name.txt", "lenovo-arch");
+        File.WriteAllText("./config/helpmod.txt", "enable");
+        Thread.Sleep(2000); Console.WriteLine("Done!");
         goto cmderror;
       }
       else if (cmd == "warstext") {

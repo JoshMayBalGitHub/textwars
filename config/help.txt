@@ -1,6 +1,9 @@
-help - displays this help and exit
-textwars - the main program, its like a bunch of questions
+// Terminal Tools:
+help - disable / enable this help prompt
 change-name - to change name of your "terminal"
 exit  - exit/quit the "terminal"
 clear - clear the terminal
+reset - set every variable to default
+// Games:
+textwars - the main program, its like a bunch of questions
 warstext - a program that fills up the blank space with user answers
