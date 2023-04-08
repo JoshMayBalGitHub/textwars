@@ -6,6 +6,7 @@ namespace textwars
   {
     static void Main(string[] args)
     {
+      Console.Clear();
       Console.WriteLine("Type 'help' for the available commands!");
       cmderror:
       var name_cmd = string.Join(" ", File.ReadAllText("./config/cmd_name.txt"));
@@ -39,7 +40,7 @@ namespace textwars
       }
       else
       {
-        Console.WriteLine(wololo + ": Error, not a valid option");
+        Console.WriteLine(wololo + ": Error, not a valid option...");
         Thread.Sleep(1500);
         goto Error;
       }
@@ -107,12 +108,49 @@ namespace textwars
       }
       else if (cmd == "warstext") {
         Thread.Sleep(2000);
+        goback:
+        Console.Clear();
         Console.WriteLine("Write out the information to make funny requests.");
         Console.WriteLine("Choose between the numbers, get more with pressing <- and ->");
-        
+        Console.WriteLine("Press 'Q' at any time to go back to terminal");
+        Console.WriteLine("1 - A little lesson in history");
+        var navkey = Console.ReadKey();
+        if (navkey.Key == ConsoleKey.RightArrow) {
+          donothing:
+          Console.Clear();
+          Console.WriteLine("2 - Blackjack and Casinos");
+          navkey = Console.ReadKey();
+          if (navkey.Key == ConsoleKey.LeftArrow) {
+            goto goback;
+          } else if (navkey.Key == ConsoleKey.D2) {
+          Console.Clear();
+          Console.WriteLine("Write any name / names!");
+          var name_warstext = Console.ReadLine();
+          Console.WriteLine(name_warstext + " gonna go out with blackjack and casinos");
+          Console.WriteLine("Press the 'Enter' key to go back to start");
+          Console.ReadLine();
+          goto goback;
+           }
+           else if (navkey.Key == ConsoleKey.Q) {
+            Console.Clear();
+            goto cmderror;
+          }else {goto donothing;}
+        } else if (navkey.Key == ConsoleKey.D1) {
+          Console.Clear();
+          Console.WriteLine("Write any name / names!");
+          var name_warstext = Console.ReadLine();
+          Console.WriteLine(name_warstext + " the number ONE!");
+          Console.WriteLine("Press the 'Enter' key to go back to start");
+          Console.ReadLine();
+          goto goback;
+        }
+        else if (navkey.Key == ConsoleKey.Q) {
+            Console.Clear();            
+            goto cmderror;
+          } else {goto goback;}
       }
       else {
-        Console.WriteLine(cmd + ": Command not found. Please try again");
+        Console.WriteLine("twsh: Command not found. Please try again: " + cmd);
         goto cmderror;
       }
     }

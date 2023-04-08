@@ -8,7 +8,8 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/joshlenovo/.nuget/packages/": {}
+    "/home/joshlenovo/.nuget/packages/": {},
+    "/home/joshlenovo/.local/share/godot/mono/GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19,8 +20,12 @@
       "packagesPath": "/home/joshlenovo/.nuget/packages/",
       "outputPath": "/run/media/joshlenovo/Expansion/Linux_Storage/test_csharp/textwars/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/home/joshlenovo/.local/share/godot/mono/GodotNuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/joshlenovo/.nuget/NuGet/NuGet.Config"
+        "/home/joshlenovo/.nuget/NuGet/NuGet.Config",
+        "/home/joshlenovo/.nuget/NuGet/config/Godot.Offline.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }
