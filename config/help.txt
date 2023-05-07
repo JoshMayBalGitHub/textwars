@@ -1,6 +1,7 @@
 // Terminal Tools:
 help - disable / enable this help prompt
 change-name - to change name of your "terminal"
+game-config - change configuration of the games below
 exit  - exit/quit the "terminal"
 clear - clear the terminal
 reset - set every variable to default
