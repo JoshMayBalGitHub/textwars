@@ -131,3 +131,6 @@ dmypy.json
 # Vscode stuff
 .vscode
 textwars.code-workspace
+
+#C# binaries
+bin/
