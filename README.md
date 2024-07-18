@@ -1,4 +1,4 @@
-### Note: It is now net7.0, update now!
+### Note: Updated to net9.0-preview because that's what I have installed
 
 ## Operating System Compatibility
 
@@ -14,8 +14,8 @@ Other Unix / Unix-like Variants: No
 
 ## Steps to play "Game":
 1. Go to textwars.exe / textwars
-2. Click it or Double-Click it
-3. Have fun!
+2. Click it or Double-Click it (it usually opens a terminal, so if it doesn't, send issue thanks)
+3. Have fun! (depends)
 
 ## Credits:
 

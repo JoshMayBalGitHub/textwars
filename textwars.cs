@@ -121,18 +121,21 @@ namespace textwars
                 case "warstext": {
                         Thread.Sleep(2000);
                     goback:
+                    // TODO: can someone like.. detect if press or text and then like change the the srings that way? thanks
+                        string navmessage = "Navigate with pressing <- and -> and by typing / pressing 'G', choose between the numbers by typing the number.";
+                        string navquitmessage = "Press / Type 'Q' at any time to go back to terminal";
                         Console.Clear();
                         Console.WriteLine("Write out the information to make funny requests.");
-                        Console.WriteLine("Navigate with pressing <- and -> and by typing / pressing 'G', choose between the numbers by typing the number.");
-                        Console.WriteLine("Press / Type 'Q' at any time to go back to terminal");
+                        Console.WriteLine(navmessage);
+                        Console.WriteLine(navquitmessage);
                         Console.WriteLine("1 - A little lesson in history");
                         var navkey = Console.ReadKey();
                         if (navkey.Key == ConsoleKey.RightArrow)
                         {
                         donothing:
                             Console.Clear();
-                            Console.WriteLine("Navigate with pressing <- and -> and by typing / pressing 'G', choose between the numbers by typing the number.");
-                            Console.WriteLine("Press / Type 'Q' at any time to go back to terminal");
+                            Console.WriteLine(navmessage);
+                            Console.WriteLine(navquitmessage);
                             Console.WriteLine("2 - Blackjack and Casinos");
                             navkey = Console.ReadKey();
                             if (navkey.Key == ConsoleKey.LeftArrow)
@@ -144,6 +147,8 @@ namespace textwars
                             {
                                 Console.Clear();
                             navtext1:
+                                Console.WriteLine(navmessage);
+                                Console.WriteLine(navquitmessage);
                                 Console.WriteLine("2 - Blackjack and Casinos");
                                 var navtext = Console.ReadLine();
                                 if (navtext == "2")
@@ -186,6 +191,7 @@ namespace textwars
                         else if (navkey.Key == ConsoleKey.G) {
                             Console.Clear();
                           navtext1:
+                            Console.WriteLine(navmessage);
                             Console.WriteLine("1 - A little lesson in history");
                             var navtext = Console.ReadLine();
                             if (navtext == "1")
