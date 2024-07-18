@@ -134,3 +134,4 @@ textwars.code-workspace
 
 #C# binaries
 bin/
+obj/
